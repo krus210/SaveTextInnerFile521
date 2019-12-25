@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SaveTextInnerFile521</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="ok">Ok</string>
+    <string name="registration">Registration</string>
+    <string name="zero_login_password">Не введен логин или пароль</string>
+    <string name="error_write_login">Ошибка записи логина</string>
+    <string name="error_write_password">Ошибка записи пароля</string>
+    <string name="writing_successfully">Данные записаны успешно</string>
+    <string name="error_read_login">Ошибка чтения файла с логином</string>
+    <string name="error_read_password">Ошибка чтения файла с паролем</string>
+    <string name="data_equal">Логин и пароль совпадают</string>
+    <string name="data_not_equal">Логин или пароль не верные</string>
+</resources>
