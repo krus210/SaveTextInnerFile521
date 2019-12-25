@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     private final String FILE_LOGIN = "login.txt";
     private final String FILE_PASSWORD = "password.txt";
+    EditText editLogin;
+    EditText editPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        final EditText editLogin = findViewById(R.id.editLogin);
-        final EditText editPassword = findViewById(R.id.editPassword);
+        editLogin = findViewById(R.id.editLogin);
+        editPassword = findViewById(R.id.editPassword);
         Button buttonOk = findViewById(R.id.buttonOK);
         Button buttonRegistration = findViewById(R.id.buttonRegistration);
 
